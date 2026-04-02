@@ -9,7 +9,7 @@ import Facts from "./pages/Facts";
 function App() {
   return (
     <BrowserRouter>
-      <nav className="bg--700 text-white p-4 flex gap-6 text-lg">
+      <nav className="bg-green-700 text-black p-4 flex gap-6 text-lg">
         <Link to="/">Home</Link>
         <Link to="/causes">Causes</Link>
         <Link to="/effects">Effects</Link>
