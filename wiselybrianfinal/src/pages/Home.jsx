@@ -1,5 +1,6 @@
 import ProfileCard from "../components/ProfileCard";
 import SectionBanner from "../components/SectionBanner";
+import SimpleClicker from "../components/SimpleClicker";
 
 function Home() {
   return (
@@ -12,6 +13,8 @@ function Home() {
       <p className="text-gray-600 mb-6">
         Pollution is one of the biggest problems our planet faces today. It affects our air, water, and land every single day.
       </p>
+
+      <SimpleClicker />
 
       <h2 className="text-xl font-bold text-gray-700 mb-4">Meet the Team</h2>
       <div className="flex gap-6 justify-center">

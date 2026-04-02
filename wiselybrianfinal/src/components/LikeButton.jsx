@@ -17,7 +17,7 @@ function LikeButton({ label }) {
     <div className="flex justify-center">
     <button
       onClick={handleClick}
-      className={`flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-medium transition-colors ${
+      className={`w-fit max-w-[220px] flex items-center justify-center gap-1 px-3 py-1.5 rounded-full border text-xs font-medium leading-tight transition-colors ${
         liked
           ? "bg-red-100 border-red-400 text-red-600"
           : "bg-gray-100 border-gray-300 text-gray-600"
