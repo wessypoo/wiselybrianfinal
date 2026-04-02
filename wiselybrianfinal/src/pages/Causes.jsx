@@ -15,11 +15,11 @@ function Causes() {
 
       <h2 className="text-xl font-bold text-gray-700 mb-3">Main Causes</h2>
       <div className="flex flex-col gap-3">
-        <TipCard tip="Cars and trucks releasing exhaust fumes into the air" />
-        <TipCard tip="Factories dumping chemicals into rivers and oceans" />
-        <TipCard tip="Burning fossil fuels like coal and oil for energy" />
-        <TipCard tip="Throwing plastic and trash into the ocean" />
-        <TipCard tip="Cutting down forests that clean the air" />
+        <TipCard number={1} tip="Cars and trucks releasing exhaust fumes into the air" />
+        <TipCard number={2} tip="Factories dumping chemicals into rivers and oceans" />
+        <TipCard number={3} tip="Burning fossil fuels like coal and oil for energy" />
+        <TipCard number={4} tip="Throwing plastic and trash into the ocean" />
+        <TipCard number={5} tip="Cutting down forests that clean the air" />
       </div>
     </div>
   );
