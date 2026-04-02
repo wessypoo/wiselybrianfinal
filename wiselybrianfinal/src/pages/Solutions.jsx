@@ -6,6 +6,10 @@ function Solutions() {
     <div>
       <h1 className="text-3xl font-bold text-green-700 mb-4">Solutions to Pollution</h1>
       <p className="text-gray-600 mb-6">There are simple things everyone can do to help reduce pollution.</p>
+      <br></br>
+      <br></br>
+      <br></br>
+      
 
       <div className="flex flex-col gap-3 mb-6">
         <TipCard tip="Recycle paper, plastic, and glass whenever you can" />
