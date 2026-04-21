@@ -2,11 +2,8 @@
   "hash": "ab0836f4",
   "configHash": "5221a2c2",
   "lockfileHash": "c85f7ab1",
-<<<<<<< Updated upstream
   "browserHash": "bcad871d",
-=======
   "browserHash": "b976f8d3",
->>>>>>> Stashed changes
   "optimized": {
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
