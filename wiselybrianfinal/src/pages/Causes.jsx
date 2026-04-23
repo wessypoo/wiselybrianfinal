@@ -6,6 +6,8 @@ function Causes() {
     <div>
       <h1 className="text-3xl font-bold text-green-700 mb-4">Causes of Pollution</h1>
       <p className="text-gray-600 mb-6">There are many things that cause pollution in our environment.</p>
+      <br></br>
+      <br></br>
 
       <div className="grid grid-cols-3 gap-4 mb-8">
         <StatCard number="8M+" label="tons of plastic dumped in oceans each year" />
