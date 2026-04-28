@@ -1,4 +1,3 @@
-import ProfileCard from "../components/ProfileCard";
 import SectionBanner from "../components/SectionBanner";
 import SimpleClicker from "../components/SimpleClicker";
 
