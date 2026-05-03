@@ -29,6 +29,14 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Debug workspace
+        run: |
+          pwd
+          ls -la
+          ls -la wiselybrianfinal
+          node --version
+          npm --version
+
       - name: Install dependencies
         working-directory: wiselybrianfinal
         run: npm install
@@ -40,7 +48,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'wiselybrianfinal/dist'
+          path: wiselybrianfinal/dist
 
   deploy:
     environment:
