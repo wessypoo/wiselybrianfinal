@@ -1,4 +1,3 @@
-import ProfileCard from "../components/ProfileCard";
 import SectionBanner from "../components/SectionBanner";
 import SimpleClicker from "../components/SimpleClicker";
 
@@ -13,6 +12,7 @@ function Home() {
       <p className="text-gray-600 mb-6">
         Pollution is one of the biggest problems our planet faces today. It affects our air, water, and land every single day.
       </p>
+      <br></br>
 
       <SimpleClicker />
 
